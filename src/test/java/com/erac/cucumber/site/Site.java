@@ -1,7 +1,7 @@
-package com.erac.selenium.site;
+package com.erac.cucumber.site;
 
-import com.erac.config.PageObject;
-import com.erac.selenium.pages.SearchPage;
+import com.erac.cucumber.pages.SearchPage;
+import com.erac.automation.pageobject.PageObject;
 import org.openqa.selenium.WebDriver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package com.erac.cucumber;
+package com.erac.testrunner;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;

@@ -1,14 +1,11 @@
-package com.erac.selenium.pages;
+package com.erac.cucumber.pages;
 
-import com.erac.config.PageObject;
+import com.erac.automation.pageobject.PageObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.springframework.beans.factory.annotation.Autowired;
-
-import java.util.NoSuchElementException;
 
 @PageObject
 public class SearchPage {

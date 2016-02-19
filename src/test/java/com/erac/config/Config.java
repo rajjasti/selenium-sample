@@ -10,8 +10,5 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = { "com.erac" })
 public class Config {
 
-    @Bean
-    public WebDriver getFireFoxDriver(){
-        return new FirefoxDriver();
-    }
+
 }
